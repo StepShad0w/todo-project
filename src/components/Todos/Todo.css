@@ -1,0 +1,88 @@
+.todo {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    margin: 15px 0;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    border: 2px solid #555;
+    color: #112d49;
+    background-color: #fbfef9;
+    user-select: none;
+    width: 100%;
+  }
+.todoCompleted{
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  margin: 15px 0;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  border: 2px solid #555;
+  color: #555;
+  background-color:  #112d49;
+  user-select: none;
+  width: 100%;
+  
+}
+  
+  .todoText {
+    width: 100%;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+  }
+  .del:hover{
+    
+    color: red;
+    transform: scale(1.3);
+    opacity: 1;
+    transition: 0.3s;
+  }
+  .del{
+    margin: 0 5px;
+    padding-bottom: 5px;
+    opacity: 0.4;
+  }
+  .done:hover{
+    
+    color: green;
+    transform: scale(1.3);
+    opacity: 1;
+    transition: 0.3s;
+  }
+  .done{
+    margin: 0 5px;
+    padding-bottom: 5px;
+    opacity: 0.4;
+  }
+  .choise{
+    display: flex;
+    gap: 5px;
+  }
+  .control{
+    
+    height: 20px;
+    font-size: 30px;
+    padding: 15px;
+    background-color: #fbfef9;
+}
+.control:disabled{
+  color: gray;
+}
+.control::placeholder{
+  color: gray
+  ;
+}
+.controlCompleted{
+  height: 20px;
+  font-size: 30px;
+  padding: 15px;
+  background-color: #112d49;
+}
+.edit:hover{
+  color: rgba(242, 163, 36, 0.953);
+  transform: scale(1.3);
+  opacity: 1;
+  transition: 0.3s;
+}
